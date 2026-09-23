@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+x=3 
+y=float(3)
+print(x,y)
