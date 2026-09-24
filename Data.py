@@ -17,8 +17,44 @@
 # print(y)
 # print(x)
 
-sentence = input("Ask me a question")
+# sentence = input("Ask me a question")
 
-y  = sentence.split()
-for i in y:
-    print(i)
+# y  = sentence.split()
+# print(len(y))
+
+# day_of_the_week = input("What day is it today")
+# if day_of_the_week == "Thursday":
+#     print("That's true")
+# else:
+#     print("Wrong")
+
+# x = "test"
+# print (f"hello {x}")
+
+# temp = 75
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+
+# number = int(input("Give me number"))
+# if number % 2 == 0:
+#     print("EVEN")
+# else:
+#     print("ODD")
+
+bill = int(input("How much did your bill cost? "))
+service = input("How was you service : bad, okay, good, great ")
+if service == "bad":
+    print(f"your total bill is {bill} ")
+if service == "okay":
+    bill = 1.15 * bill
+    print(f"your total bill is {bill} ")
+if service == "good":
+    bill = 1.20 * bill
+    print(f"your total bill is {bill} ")
+if service == "great":
+    bill = 1.25 * bill
+    print(f"your total bill is {bill} ")
