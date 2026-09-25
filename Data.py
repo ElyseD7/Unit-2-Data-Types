@@ -45,16 +45,28 @@
 # else:
 #     print("ODD")
 
-bill = int(input("How much did your bill cost? "))
-service = input("How was you service : bad, okay, good, great ")
-if service == "bad":
-    print(f"your total bill is {bill} ")
-if service == "okay":
-    bill = 1.15 * bill
-    print(f"your total bill is {bill} ")
-if service == "good":
-    bill = 1.20 * bill
-    print(f"your total bill is {bill} ")
-if service == "great":
-    bill = 1.25 * bill
-    print(f"your total bill is {bill} ")
+# print("Welcome to the tip calculator ")
+# bill = int(input("How much did your bill cost? "))
+# service = input("How was you service : bad, okay, good, great ")
+# if service == "bad":
+#     print(f"your total bill is {bill} ")
+# if service == "okay":
+#     bill = 1.15 * bill
+#     print(f"your total bill is {bill} ")
+# if service == "good":
+#     bill = 1.20 * bill
+#     print(f"your total bill is {bill} ")
+# if service == "great":
+#     bill = 1.25 * bill
+#     print(f"your total bill is {bill} ")
+
+# num = int(input("tell me a positive integer"))
+
+factor(19)
+def factor(num):
+    factor = []
+    for i in range(2, num + 1):
+        if num % i == 0:
+            factor.append(i)
+        print(factor)
+
