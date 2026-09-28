@@ -62,11 +62,23 @@
 
 # num = int(input("tell me a positive integer"))
 
-factor(19)
-def factor(num):
+# def factor(num):
+#     factor = []
+#     for i in range(2, num + 1):
+#         if num % i == 0:
+#             factor.append(i)
+#         print(factor)
+
+# factor(int(input("Give me a number ")))
+
+
+
+def GCF(x,y):
     factor = []
-    for i in range(2, num + 1):
-        if num % i == 0:
+    for i in range(2, x):
+        print(x,y)
+        if x % i == 0 and y % i == 0:
             factor.append(i)
-        print(factor)
+    print(factor)
+GCF(3,9)
 
