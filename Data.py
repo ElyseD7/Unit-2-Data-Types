@@ -75,10 +75,10 @@
 
 def GCF(x,y):
     factor = []
-    for i in range(2, x):
+    for i in range(2, min(x,y)):
         print(x,y)
         if x % i == 0 and y % i == 0:
             factor.append(i)
     print(factor)
-GCF(3,9)
+GCF(8,10)
 
