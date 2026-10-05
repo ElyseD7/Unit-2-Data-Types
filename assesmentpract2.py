@@ -2,7 +2,7 @@ def virus(P, N, R):
     x = 0
     y = 0
     while x < P:
-        x = R * N + 1
+        x = 25 + 1
         y += 1
     else:
         return y
