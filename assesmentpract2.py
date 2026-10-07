@@ -21,3 +21,14 @@ def mega(N, months, used):
     print(bites)
               
 mega(10, 3, [4, 6, 2])
+
+
+def v(most, number, infect):
+    x = number
+    y = 1
+    while x < most:
+        x = x + infect * y
+        y += 1
+    print(y)
+
+v(10,2,1) 
