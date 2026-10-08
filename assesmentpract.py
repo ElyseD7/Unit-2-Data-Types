@@ -2,9 +2,9 @@ def asses(w):
     list_T = 0
     list_S = 0
     for i in range(len(w)):
-        if w[i] == "t" or "T":
+        if w[i] == "t" or w[i] == "T":
             list_T += 1
-        if w[i] == "s" or "S":
+        if w[i] == "s" or w[i] == "S":
             list_S += 1
     if list_T > list_S:
         print("English")
