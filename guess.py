@@ -1,6 +1,5 @@
 import random
 x = random.randint(1, 100)
-print(x)
 
 guess = int(input("Guess a random number froom one to one-hundred "))
 guess_history = []

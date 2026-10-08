@@ -67,7 +67,7 @@
 #     for i in range(2, num + 1):
 #         if num % i == 0:
 #             factor.append(i)
-#         print(factor)
+#     print(factor)
 
 # factor(int(input("Give me a number ")))
 
